@@ -6,7 +6,7 @@ let restart = false; // Cette variable vaut 'false' ce qui veut dire que par dé
 do {
     // recueille le choix de l'utilisateur
     do {
-       var choix = parseInt(prompt('Que souhaitez-vous faire?\n\n 1 - Addition\n 2 - Multiplication\n 3 - Soustration\n 4 - Division'));
+       var choix = parseInt(prompt('Que souhaitez-vous faire?\n(Veuillez saisir le nombre correspondant à votre choix svp!)\n\n 1 - Addition\n 2 - Multiplication\n 3 - Soustration\n 4 - Division'));
     } while((choix != 1 && choix != 2 && choix != 3 && choix != 4))
 
     // Demande deux nombres :
