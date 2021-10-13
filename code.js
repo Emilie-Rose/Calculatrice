@@ -13,7 +13,7 @@ do {
     // la fonction isNaN : renvoie 'true' si la variable n'est pas un nombre
     do {
         var premierNombre = Number(prompt('Entrez un premier nombre :'));
-       var deuxiemeNombre = Number(prompt('Entrez un deuxième nombre :'));
+        var deuxiemeNombre = Number(prompt('Entrez un deuxième nombre :'));
     } while(isNaN(premierNombre) || isNaN(deuxiemeNombre))
 
     // On crée les 4 fonctions :
@@ -70,5 +70,5 @@ do {
     catch(error) {
         alert(error); // Si une erreur est survenue on affiche l'erreur
     }
-    restart = confirm("Souhaitez-vous recommancer un opération?"); // confirm() permet à l'utilisateur de recommencer
-}while(restart)
+    restart = confirm("Souhaitez-vous recommencer un opération?"); // confirm() permet à l'utilisateur de recommencer
+} while(restart)
